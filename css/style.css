@@ -2,8 +2,10 @@
     margin: 0px;
     padding: 0px;
     font-size: 17px;
-    color: black;
+    color: rgba(255, 255, 255, 0.764) ;
     box-sizing: border-box;
+    list-style: none;
+    font-family:'Oswald', sans-serif;
 }
 
 body{
@@ -28,4 +30,69 @@ body{
     grid-column: span 5;
     height: 100%;
     background-color: rgb(201, 201, 201);
+}
+
+.left-content{
+    padding: 1rem 2rem;
+}
+
+.profile{
+    width: 100%;
+}
+.profile img{
+    width: 100%;
+    border: 8px solid rgba(255, 255, 255, 0.764);
+}
+
+.name {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.career {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.main-title{
+    padding-top: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.ul-contact ul{
+    padding-top: 20px;
+
+}
+
+.ul-contact ul li i{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+.ul-link{
+    text-decoration: none;
+}
+.ul-link:hover{
+    color: cornflowerblue;
+}
+
+.skills-title{
+    padding-top: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
