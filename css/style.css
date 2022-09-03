@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    color: black;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: rgb(75, 78, 78);
+}
+
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: rgb(201, 201, 201);
+}
