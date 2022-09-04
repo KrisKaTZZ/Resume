@@ -2,17 +2,17 @@
     margin: 0px;
     padding: 0px;
     font-size: 17px;
-    color: rgba(255, 255, 255, 0.764) ;
+    color: rgba(255, 255, 255, 0.764);
     box-sizing: border-box;
     list-style: none;
-    font-family:'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
-body{
+body {
     background-color: aliceblue;
 }
 
-.main-content{
+.main-content {
     min-height: 100vh;
     width: 80%;
     margin: 2rem auto;
@@ -20,26 +20,27 @@ body{
     grid-template-columns: repeat(7, 1fr);
 }
 
-.left-section{
+.left-section {
     grid-column: span 2;
     height: 100%;
     background-color: rgb(75, 78, 78);
 }
 
-.right-section{
+.right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(167, 167, 167);
 }
 
-.left-content{
+.left-content {
     padding: 1rem 2rem;
 }
 
-.profile{
+.profile {
     width: 100%;
 }
-.profile img{
+
+.profile img {
     width: 100%;
     border: 8px solid rgba(255, 255, 255, 0.764);
 }
@@ -61,7 +62,7 @@ body{
     border-bottom: 1px solid white;
 }
 
-.main-title{
+.main-title {
     padding-top: 40px;
     text-align: left;
     text-transform: uppercase;
@@ -70,29 +71,86 @@ body{
     padding-bottom: 20px;
 }
 
-.ul-contact ul{
+.ul-contact ul {
     padding-top: 20px;
 
 }
 
-.ul-contact ul li i{
+.ul-contact ul li i {
     padding-top: 20px;
     display: flex;
     align-items: center;
-   
+
 }
-.ul-link{
+
+.ul-link {
     text-decoration: none;
 }
-.ul-link:hover{
+
+.ul-link:hover {
     color: cornflowerblue;
 }
 
-.skills-title{
+.skills-title {
     padding-top: 20px;
     text-align: left;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
     padding-bottom: 10px;
+}
+
+/* right content */
+
+.right-content {
+    padding: 1rem 2rem;
+}
+
+.right-title {
+    text-transform: uppercase;
+    color: rgb(36, 36, 36);
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding-top: 30px;
+    color: rgba(5, 5, 5, 0.685);  
+}
+
+.right-education-content {
+    padding: 1rem 2rem;
+}
+
+.timeline{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    padding-bottom: 10px;
+}
+.left-title-time{
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.right-title-time{
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+  
+}
+
+.info-time{
+    padding-top: 30px;
+    color: rgba(5, 5, 5, 0.685);  
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.info-last{
+    padding-top: 30px;
+    color: rgba(5, 5, 5, 0.685); 
+    border-top: 2px solid black ;
 }
